@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "EuroFuel instellen",
+        "description": "Vul de API-instellingen in om brandstofprijzen op te halen.",
+        "data": {
+          "api_base_url": "API basis URL",
+          "api_key": "API sleutel",
+          "country_codes": "Europese landcodes (komma gescheiden)",
+          "device_tracker": "Device tracker",
+          "fallback_latitude": "Fallback latitude",
+          "fallback_longitude": "Fallback longitude",
+          "radius_km": "Zoekstraal (km)",
+          "scan_interval": "Update interval (minuten)"
+        }
+      }
+    },
+    "error": {
+      "invalid_input": "Controleer je invoer: kies geldige landcodes en geef device tracker of fallback locatie op."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "EuroFuel opties",
+        "data": {
+          "api_base_url": "API basis URL",
+          "api_key": "API sleutel",
+          "country_codes": "Europese landcodes (komma gescheiden)",
+          "device_tracker": "Device tracker",
+          "fallback_latitude": "Fallback latitude",
+          "fallback_longitude": "Fallback longitude",
+          "radius_km": "Zoekstraal (km)",
+          "scan_interval": "Update interval (minuten)"
+        }
+      }
+    },
+    "error": {
+      "invalid_input": "Controleer je invoer: kies geldige landcodes en geef device tracker of fallback locatie op."
+    }
+  }
+}

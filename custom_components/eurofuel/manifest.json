@@ -1,0 +1,11 @@
+{
+  "domain": "eurofuel",
+  "name": "EuroFuel",
+  "codeowners": ["@codex"],
+  "config_flow": true,
+  "documentation": "https://github.com/example/eurofuel",
+  "iot_class": "cloud_polling",
+  "loggers": ["custom_components.eurofuel"],
+  "requirements": [],
+  "version": "0.1.0"
+}
